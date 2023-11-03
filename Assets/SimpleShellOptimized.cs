@@ -7,6 +7,8 @@ public class SimpleShellOptimized : MonoBehaviour
 {
     [SerializeField] private Mesh shellMesh;
     [SerializeField] private Shader shellShader;
+    [SerializeField] private Material shellMaterialAsset;
+    [SerializeField] private bool useMaterialAsset;
 
     [SerializeField] private bool updateStatics = true;
 
@@ -46,7 +48,11 @@ public class SimpleShellOptimized : MonoBehaviour
 
     void OnEnable()
     {
-        shellMaterial = new Material(shellShader);
+        if(useMaterialAsset)
+            shellMaterial = shellMaterialAsset;
+        else
+            shellMaterial = new Material(shellShader);
+
         shellMaterial.enableInstancing = true;
 
         shells = new GameObject[shellCount];
@@ -131,6 +137,7 @@ public class SimpleShellOptimized : MonoBehaviour
             for (int i = 0; i < shellCount; ++i)
             {
                 shellMaterialPropertyBlocks[i].SetInteger("_ShellIndex", i);
+                shellRenderers[i].SetPropertyBlock(shellMaterialPropertyBlocks[i]);
             }
             shellMaterial.SetInt("_ShellCount", shellCount);
             shellMaterial.SetFloat("_ShellLength", shellLength);

@@ -169,6 +169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -405,6 +407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -464,6 +468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -582,6 +588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -641,6 +649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -928,6 +938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -987,6 +999,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -1046,6 +1060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -1258,6 +1274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -1704,6 +1722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -1940,6 +1960,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2058,6 +2080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2117,6 +2141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2176,6 +2202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2294,6 +2322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2353,6 +2383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2412,6 +2444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2456,6 +2490,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2640,6 +2676,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
@@ -2699,6 +2737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shellMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   shellShader: {fileID: 4800000, guid: 2b619b1239175d84d86ddfd4b8cbce35, type: 3}
+  shellMaterialAsset: {fileID: 2100000, guid: 64db55cd61de65f49acad4f4c804bab4, type: 2}
+  useMaterialAsset: 1
   updateStatics: 1
   shellCount: 256
   shellLength: 0.15
