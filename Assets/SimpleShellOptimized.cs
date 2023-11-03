@@ -126,12 +126,13 @@ public class SimpleShellOptimized : MonoBehaviour
         // That every shader will have access to, which sounds bad, because it kind of is, but just be aware of your global variable names and it's not a big deal.
         // Regardless, setting the variable one time instead of 256 times is just better.
         Shader.SetGlobalVector("_ShellDirection", displacementDirection);
+    }
 
-        // Generally it is bad practice to update statics that do not need to be updated every frame
-        // You can see the performance difference between updating 256 shells of statics by disabling the updateStatics parameter in the script
-        // So it obviously matters at the extreme ends, but something above like setting the directional vector each frame is not going to make an insane diff
-        // You will see in my other shaders and scripts that I do not always do this, because I'm lazy, but it's best practice to not update what doesn't need to be
-        // updated.
+    private void OnValidate()
+    {
+        if (!Application.isPlaying || !shellMaterial)
+            return;
+
         if (updateStatics)
         {
             for (int i = 0; i < shellCount; ++i)
