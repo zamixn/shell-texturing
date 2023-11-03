@@ -104,9 +104,9 @@ public class SimpleShellOptimized : MonoBehaviour
 
         // This determines the direction we are moving from wasd input. It's probably a better idea to use Unity's input system, since it handles
         // all possible input devices at once, but I did it the old fashioned way for simplicity.
-        direction.x = Convert.ToInt32(Input.GetKey(KeyCode.D)) - Convert.ToInt32(Input.GetKey(KeyCode.A));
-        direction.y = Convert.ToInt32(Input.GetKey(KeyCode.W)) - Convert.ToInt32(Input.GetKey(KeyCode.S));
-        direction.z = Convert.ToInt32(Input.GetKey(KeyCode.Q)) - Convert.ToInt32(Input.GetKey(KeyCode.E));
+        direction.x = Convert.ToInt16(Input.GetKey(KeyCode.D)) - Convert.ToInt16(Input.GetKey(KeyCode.A));
+        direction.y = Convert.ToInt16(Input.GetKey(KeyCode.W)) - Convert.ToInt16(Input.GetKey(KeyCode.S));
+        direction.z = Convert.ToInt16(Input.GetKey(KeyCode.Q)) - Convert.ToInt16(Input.GetKey(KeyCode.E));
 
         // This moves the ball according the input direction
         Vector3 currentPosition = this.transform.position;
