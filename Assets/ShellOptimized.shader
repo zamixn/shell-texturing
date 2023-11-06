@@ -138,8 +138,8 @@ Shader "Custom/ShellOptimized" {
 			}
 
 			float4 fp(v2f i) : SV_TARGET{
-				// As explained in the video, this multiplies the uv coordinates to create more strands because it generates more seeds
 				UNITY_SETUP_INSTANCE_ID(i);
+				// As explained in the video, this multiplies the uv coordinates to create more strands because it generates more seeds
 				float2 newUV = i.uv * _Density;
 
 				// In order to operate in the local space uv coordinates after expanding them to a wider range, we take the fractional component
