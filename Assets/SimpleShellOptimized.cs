@@ -166,4 +166,12 @@ public class SimpleShellOptimized : MonoBehaviour
         shellMeshFilters = null;
         shellRenderers = null;
     }
+
+    private void OnDrawGizmos()
+    {
+        if (shellMesh == null || Application.isPlaying)
+            return;
+
+        Gizmos.DrawMesh(shellMesh, transform.position, transform.rotation, transform.lossyScale);
+    }
 }
